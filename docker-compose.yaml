@@ -1,0 +1,8 @@
+version: '1.1'
+services:
+  server:
+    build: ./backend
+    ports:
+      - 4000:4000
+  db:
+    build: ./db
